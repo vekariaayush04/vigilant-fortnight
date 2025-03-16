@@ -11,26 +11,64 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 #quoteCard{
     color : white;
     background: linear-gradient(to bottom ,#0F172A,#020817);
-    padding: 100px;
+    padding: 60px;
     border-radius: 10px;
     border: 1px solid slategray;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    max-height: 40vh;
-    max-width: 70vw;
+    justify-items: center;
+    gap: 25px;
+    width: 70vw;
 }
 
 #quoteDiv{
-
+    font-size: x-large;
+    line-height: 35px;
 }
 
 #authorDiv{
+    font-size: large;
+    text-align: right;
+}
 
+
+#addQuote{
+    background: #020817;
+    color : #94A3B8;
+    padding: 10px;
+    border: 1px solid #1E293B;
+    border-radius: 5px;
+}
+
+
+#copyQuote{
+    background: #020817;
+    color : #94A3B8;
+    padding: 10px;
+    border: 1px solid #1E293B;
+    border-radius: 5px;
+}
+
+#share{
+    background: #020817;
+    color : #94A3B8;
+    padding: 10px;
+    border: 1px solid #1E293B;
+    border-radius: 5px;
+}
+
+#buttons{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    justify-content: end;
+    min-width: 70vw;
 }
 
