@@ -11,7 +11,6 @@ async function getQuote () {
 function displayQuote() {
     const qCard = document.getElementById("quoteCard")
     let n = qCard.childElementCount
-    console.log(n);
     
     if(n > 0){
         const authorDiv = document.getElementById("authorDiv")
@@ -50,9 +49,7 @@ button2.addEventListener("click",(e) => {
         })
         .catch(err => {
             console.error("Error copying text: ", err);
-        })
-    // alert("Quote copied to clipboard successfully")
-    
+        })   
 })
 
 const button3 = document.getElementById("share")
@@ -63,7 +60,6 @@ button3.addEventListener("click",(e) => {
     const url = `https://twitter.com/intent/tweet?text=${content}`
     window.open(url, "_blank")    
 })
-
 
 
 

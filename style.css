@@ -26,6 +26,7 @@
     justify-items: center;
     gap: 25px;
     width: 70vw;
+    min-height: 30vh;
 }
 
 #quoteDiv{
@@ -72,3 +73,6 @@
     min-width: 70vw;
 }
 
+.b:hover{
+    cursor: pointer;
+}
